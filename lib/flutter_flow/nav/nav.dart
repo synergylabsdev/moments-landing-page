@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+
 import '/flutter_flow/flutter_flow_util.dart';
 
 import '/index.dart';
@@ -59,6 +60,16 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: TermsofUseWidget.routeName,
           path: TermsofUseWidget.routePath,
           builder: (context, params) => TermsofUseWidget(),
+        ),
+        FFRoute(
+          name: InvitationWidget.routeName,
+          path: InvitationWidget.routePath,
+          builder: (context, params) => InvitationWidget(
+            id: params.getParam(
+              'id',
+              ParamType.int,
+            ),
+          ),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
