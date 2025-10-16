@@ -1,10 +1,8 @@
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
 import 'invitation_model.dart';
 export 'invitation_model.dart';
 
@@ -124,7 +122,7 @@ class _InvitationWidgetState extends State<InvitationWidget> {
                                       .bodyMedium
                                       .fontStyle,
                                 ),
-                                color: FlutterFlowTheme.of(context).purple100,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 14.0,
                                 letterSpacing: 0.0,
                                 fontWeight: FontWeight.normal,
@@ -149,7 +147,8 @@ class _InvitationWidgetState extends State<InvitationWidget> {
                                         .bodyMedium
                                         .fontStyle,
                                   ),
-                                  color: FlutterFlowTheme.of(context).purple100,
+                                  color:
+                                      FlutterFlowTheme.of(context).primaryText,
                                   fontSize: 16.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.normal,
@@ -165,8 +164,7 @@ class _InvitationWidgetState extends State<InvitationWidget> {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(8.0),
                             border: Border.all(
-                              color:
-                                  FlutterFlowTheme.of(context).purpleOpacity20,
+                              color: Color(0xFF8370A7),
                             ),
                           ),
                           child: Padding(
@@ -242,8 +240,7 @@ class _InvitationWidgetState extends State<InvitationWidget> {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(8.0),
                             border: Border.all(
-                              color:
-                                  FlutterFlowTheme.of(context).purpleOpacity20,
+                              color: Color(0xFF8370A7),
                             ),
                           ),
                           child: Padding(
@@ -324,8 +321,7 @@ class _InvitationWidgetState extends State<InvitationWidget> {
                                   color: Colors.white,
                                   borderRadius: BorderRadius.circular(8.0),
                                   border: Border.all(
-                                    color: FlutterFlowTheme.of(context)
-                                        .purpleOpacity20,
+                                    color: Color(0xFF8370A7),
                                   ),
                                 ),
                                 child: Padding(
@@ -380,8 +376,7 @@ class _InvitationWidgetState extends State<InvitationWidget> {
                                   color: Colors.white,
                                   borderRadius: BorderRadius.circular(8.0),
                                   border: Border.all(
-                                    color: FlutterFlowTheme.of(context)
-                                        .purpleOpacity20,
+                                    color: Color(0xFF8370A7),
                                   ),
                                 ),
                                 child: Padding(
@@ -437,8 +432,7 @@ class _InvitationWidgetState extends State<InvitationWidget> {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(8.0),
                             border: Border.all(
-                              color:
-                                  FlutterFlowTheme.of(context).purpleOpacity20,
+                              color: Color(0xFF8370A7),
                             ),
                           ),
                           child: Padding(
@@ -514,9 +508,8 @@ class _InvitationWidgetState extends State<InvitationWidget> {
                                       ),
                                     ),
                                     Icon(
-                                      FFIcons.kmap,
-                                      color: FlutterFlowTheme.of(context)
-                                          .brandPink,
+                                      Icons.map_outlined,
+                                      color: Color(0xFFCD2B64),
                                       size: 24.0,
                                     ),
                                   ],
