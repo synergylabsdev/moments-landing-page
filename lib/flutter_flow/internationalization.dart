@@ -233,46 +233,24 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // Invitation
   {
-    '5q9gnjr8': {
-      'en': 'You have been invited by: ',
+    'oxrpie0z': {
+      'en': 'Invitation',
       'ar': '',
     },
-    'co22rzqc': {
-      'en': 'Saleh (+96612345678)',
+    '5q9gnjr8': {
+      'en': 'You have been invited by: ',
       'ar': '',
     },
     '9afv3bu4': {
       'en': 'Invitation title:',
       'ar': '',
     },
-    'jy5mjw60': {
-      'en': 'Dinner party',
-      'ar': '',
-    },
     '0e8vss17': {
       'en': 'Invitation details:',
       'ar': '',
     },
-    '0lzoabxp': {
-      'en':
-          'I invite all the colleagues to have dinner in this special occasion.',
-      'ar': '',
-    },
-    'n71q4stf': {
-      'en': 'On 12.05.25',
-      'ar': '',
-    },
-    'uofzw9o8': {
-      'en': 'At 17:00',
-      'ar': '',
-    },
     '55sxc2c3': {
       'en': 'Address',
-      'ar': '',
-    },
-    '0sfdwsje': {
-      'en':
-          'I invite all the colleagues to have dinner in this special occasion.',
       'ar': '',
     },
     'tqdrmt2s': {
@@ -297,6 +275,17 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ar': '',
     },
     'g5tue33z': {
+      'en': 'Home',
+      'ar': 'بيت',
+    },
+  },
+  // InvitationDone
+  {
+    'i9ulzvke': {
+      'en': 'Your answer was recorded, thanks for your response!',
+      'ar': '',
+    },
+    'gnmxhh66': {
       'en': 'Home',
       'ar': 'بيت',
     },
@@ -503,6 +492,21 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     'wq6st2ut': {
       'en': '© 2025 Moments. All rights reserved. ',
       'ar': '© ٢٠٢٥ لحظات. جميع الحقوق محفوظة.',
+    },
+  },
+  // InvitationAnswerDialog
+  {
+    'xiz590dk': {
+      'en': 'Thank you for your answer!',
+      'ar': '',
+    },
+    'y790k9kq': {
+      'en': 'let\'s have fun!',
+      'ar': '',
+    },
+    'xsmn3vvn': {
+      'en': 'Close',
+      'ar': '',
     },
   },
   // Miscellaneous
