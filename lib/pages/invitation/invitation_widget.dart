@@ -678,6 +678,24 @@ class _InvitationWidgetState extends State<InvitationWidget> {
                                   child: Builder(
                                     builder: (context) => FFButtonWidget(
                                       onPressed: () async {
+                                        ScaffoldMessenger.of(context)
+                                            .showSnackBar(
+                                          SnackBar(
+                                            content: Text(
+                                              widget.id!.toString(),
+                                              style: TextStyle(
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .primaryText,
+                                              ),
+                                            ),
+                                            duration:
+                                                Duration(milliseconds: 4000),
+                                            backgroundColor:
+                                                FlutterFlowTheme.of(context)
+                                                    .secondary,
+                                          ),
+                                        );
                                         await InvitationsTable().update(
                                           data: {
                                             'answer_no': (columnInvitationsRow!
@@ -687,6 +705,24 @@ class _InvitationWidgetState extends State<InvitationWidget> {
                                           matchingRows: (rows) => rows.eqOrNull(
                                             'id',
                                             widget.id,
+                                          ),
+                                        );
+                                        ScaffoldMessenger.of(context)
+                                            .showSnackBar(
+                                          SnackBar(
+                                            content: Text(
+                                              'update',
+                                              style: TextStyle(
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .primaryText,
+                                              ),
+                                            ),
+                                            duration:
+                                                Duration(milliseconds: 4000),
+                                            backgroundColor:
+                                                FlutterFlowTheme.of(context)
+                                                    .secondary,
                                           ),
                                         );
                                         await showDialog(

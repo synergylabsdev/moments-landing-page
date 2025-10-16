@@ -279,6 +279,17 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ar': 'بيت',
     },
   },
+  // InvitationDone
+  {
+    'i9ulzvke': {
+      'en': 'Your answer was recorded, thanks for your response!',
+      'ar': '',
+    },
+    'gnmxhh66': {
+      'en': 'Home',
+      'ar': 'بيت',
+    },
+  },
   // Navbar
   {
     'pueuieat': {

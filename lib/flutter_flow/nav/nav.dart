@@ -70,6 +70,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               ParamType.int,
             ),
           ),
+        ),
+        FFRoute(
+          name: InvitationDoneWidget.routeName,
+          path: InvitationDoneWidget.routePath,
+          builder: (context, params) => InvitationDoneWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
