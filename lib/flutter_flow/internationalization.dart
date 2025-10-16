@@ -151,8 +151,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ar': 'تنظيم لحظات لا تُنسى',
     },
     'itfzena6': {
-      'en':
-          'Connect, discover, and celebrate special moments — all in one app.',
+      'en': 'Connect, discover, and celebrate special moments — all in one app',
       'ar': 'تواصل واكتشف واحتفل باللحظات الخاصة - كل ذلك في تطبيق واحد.',
     },
     'qi4to6fj': {
@@ -228,6 +227,76 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // TermsofUse
   {
     'lodh2du8': {
+      'en': 'Home',
+      'ar': 'بيت',
+    },
+  },
+  // Invitation
+  {
+    '5q9gnjr8': {
+      'en': 'You have been invited by: ',
+      'ar': '',
+    },
+    'co22rzqc': {
+      'en': 'Saleh (+96612345678)',
+      'ar': '',
+    },
+    '9afv3bu4': {
+      'en': 'Invitation title:',
+      'ar': '',
+    },
+    'jy5mjw60': {
+      'en': 'Dinner party',
+      'ar': '',
+    },
+    '0e8vss17': {
+      'en': 'Invitation details:',
+      'ar': '',
+    },
+    '0lzoabxp': {
+      'en':
+          'I invite all the colleagues to have dinner in this special occasion.',
+      'ar': '',
+    },
+    'n71q4stf': {
+      'en': 'On 12.05.25',
+      'ar': '',
+    },
+    'uofzw9o8': {
+      'en': 'At 17:00',
+      'ar': '',
+    },
+    '55sxc2c3': {
+      'en': 'Address',
+      'ar': '',
+    },
+    '0sfdwsje': {
+      'en':
+          'I invite all the colleagues to have dinner in this special occasion.',
+      'ar': '',
+    },
+    'tqdrmt2s': {
+      'en': 'Thanks for using Kitty Moments App',
+      'ar': '',
+    },
+    'w3e2jest': {
+      'en':
+          'To confirm your attendance please click on one of the following buttons: ',
+      'ar': '',
+    },
+    '28s0q6w0': {
+      'en': 'No',
+      'ar': '',
+    },
+    'o8gbyl6s': {
+      'en': 'Yes',
+      'ar': '',
+    },
+    'i5s5gvdl': {
+      'en': 'Maybe',
+      'ar': '',
+    },
+    'g5tue33z': {
       'en': 'Home',
       'ar': 'بيت',
     },
