@@ -38,22 +38,18 @@ class InvitationsRow extends SupabaseDataRow {
   bool? get is24hours => getField<bool>('is24hours');
   set is24hours(bool? value) => setField<bool>('is24hours', value);
 
-  bool? get responses => getField<bool>('responses');
-  set responses(bool? value) => setField<bool>('responses', value);
-
   List<String> get invites => getListField<String>('invites');
   set invites(List<String>? value) => setListField<String>('invites', value);
 
   int? get createdUser => getField<int>('created_user');
   set createdUser(int? value) => setField<int>('created_user', value);
 
-  List<String> get approves => getListField<String>('approves');
-  set approves(List<String>? value) => setListField<String>('approves', value);
+  int? get answerYes => getField<int>('answer_yes');
+  set answerYes(int? value) => setField<int>('answer_yes', value);
 
-  List<String> get cancels => getListField<String>('cancels');
-  set cancels(List<String>? value) => setListField<String>('cancels', value);
+  int? get answerNo => getField<int>('answer_no');
+  set answerNo(int? value) => setField<int>('answer_no', value);
 
-  List<String> get questions => getListField<String>('questions');
-  set questions(List<String>? value) =>
-      setListField<String>('questions', value);
+  int? get answerMaybe => getField<int>('answer_maybe');
+  set answerMaybe(int? value) => setField<int>('answer_maybe', value);
 }
