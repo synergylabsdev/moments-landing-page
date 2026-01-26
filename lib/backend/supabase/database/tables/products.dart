@@ -91,11 +91,17 @@ class ProductsRow extends SupabaseDataRow {
   String? get type => getField<String>('type');
   set type(String? value) => setField<String>('type', value);
 
-  String? get typeOfShipping => getField<String>('type_of_shipping');
-  set typeOfShipping(String? value) =>
-      setField<String>('type_of_shipping', value);
-
   List<String> get categories => getListField<String>('categories');
   set categories(List<String>? value) =>
       setListField<String>('categories', value);
+
+  List<String> get typeOfShipping => getListField<String>('type_of_shipping');
+  set typeOfShipping(List<String>? value) =>
+      setListField<String>('type_of_shipping', value);
+
+  String? get subGroup => getField<String>('sub_group');
+  set subGroup(String? value) => setField<String>('sub_group', value);
+
+  String? get vatId => getField<String>('vat_id');
+  set vatId(String? value) => setField<String>('vat_id', value);
 }

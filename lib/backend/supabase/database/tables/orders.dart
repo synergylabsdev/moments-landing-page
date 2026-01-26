@@ -41,15 +41,6 @@ class OrdersRow extends SupabaseDataRow {
   double? get price => getField<double>('price');
   set price(double? value) => setField<double>('price', value);
 
-  dynamic get mainDish => getField<dynamic>('main_dish');
-  set mainDish(dynamic value) => setField<dynamic>('main_dish', value);
-
-  dynamic get sideDish => getField<dynamic>('side_dish');
-  set sideDish(dynamic value) => setField<dynamic>('side_dish', value);
-
-  dynamic get appetizer => getField<dynamic>('appetizer');
-  set appetizer(dynamic value) => setField<dynamic>('appetizer', value);
-
   int? get count => getField<int>('count');
   set count(int? value) => setField<int>('count', value);
 
@@ -93,4 +84,22 @@ class OrdersRow extends SupabaseDataRow {
   List<String> get selectedColors => getListField<String>('selected_colors');
   set selectedColors(List<String>? value) =>
       setListField<String>('selected_colors', value);
+
+  bool? get ratedByClient => getField<bool>('rated_by_client');
+  set ratedByClient(bool? value) => setField<bool>('rated_by_client', value);
+
+  bool? get ratedByStore => getField<bool>('rated_by_store');
+  set ratedByStore(bool? value) => setField<bool>('rated_by_store', value);
+
+  List<dynamic> get mainDish => getListField<dynamic>('main_dish');
+  set mainDish(List<dynamic>? value) =>
+      setListField<dynamic>('main_dish', value);
+
+  List<dynamic> get sideDish => getListField<dynamic>('side_dish');
+  set sideDish(List<dynamic>? value) =>
+      setListField<dynamic>('side_dish', value);
+
+  List<dynamic> get appetizer => getListField<dynamic>('appetizer');
+  set appetizer(List<dynamic>? value) =>
+      setListField<dynamic>('appetizer', value);
 }

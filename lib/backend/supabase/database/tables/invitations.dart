@@ -38,9 +38,6 @@ class InvitationsRow extends SupabaseDataRow {
   bool? get is24hours => getField<bool>('is24hours');
   set is24hours(bool? value) => setField<bool>('is24hours', value);
 
-  List<String> get invites => getListField<String>('invites');
-  set invites(List<String>? value) => setListField<String>('invites', value);
-
   int? get createdUser => getField<int>('created_user');
   set createdUser(int? value) => setField<int>('created_user', value);
 
@@ -52,4 +49,8 @@ class InvitationsRow extends SupabaseDataRow {
 
   int? get answerMaybe => getField<int>('answer_maybe');
   set answerMaybe(int? value) => setField<int>('answer_maybe', value);
+
+  int? get numberOfInvitees => getField<int>('number_of_invitees');
+  set numberOfInvitees(int? value) =>
+      setField<int>('number_of_invitees', value);
 }

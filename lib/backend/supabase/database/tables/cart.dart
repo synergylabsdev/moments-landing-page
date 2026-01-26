@@ -39,15 +39,6 @@ class CartRow extends SupabaseDataRow {
   double? get price => getField<double>('price');
   set price(double? value) => setField<double>('price', value);
 
-  dynamic get mainDish => getField<dynamic>('main_dish');
-  set mainDish(dynamic value) => setField<dynamic>('main_dish', value);
-
-  dynamic get sideDish => getField<dynamic>('side_dish');
-  set sideDish(dynamic value) => setField<dynamic>('side_dish', value);
-
-  dynamic get appetizer => getField<dynamic>('appetizer');
-  set appetizer(dynamic value) => setField<dynamic>('appetizer', value);
-
   int? get count => getField<int>('count');
   set count(int? value) => setField<int>('count', value);
 
@@ -66,4 +57,16 @@ class CartRow extends SupabaseDataRow {
 
   double? get extraCost => getField<double>('extra_cost');
   set extraCost(double? value) => setField<double>('extra_cost', value);
+
+  List<dynamic> get mainDish => getListField<dynamic>('main_dish');
+  set mainDish(List<dynamic>? value) =>
+      setListField<dynamic>('main_dish', value);
+
+  List<dynamic> get sideDish => getListField<dynamic>('side_dish');
+  set sideDish(List<dynamic>? value) =>
+      setListField<dynamic>('side_dish', value);
+
+  List<dynamic> get appetizer => getListField<dynamic>('appetizer');
+  set appetizer(List<dynamic>? value) =>
+      setListField<dynamic>('appetizer', value);
 }

@@ -143,4 +143,19 @@ class UsersRow extends SupabaseDataRow {
   List<dynamic> get extraCost => getListField<dynamic>('extra_cost');
   set extraCost(List<dynamic>? value) =>
       setListField<dynamic>('extra_cost', value);
+
+  List<dynamic> get classifiedImages =>
+      getListField<dynamic>('classified_images');
+  set classifiedImages(List<dynamic>? value) =>
+      setListField<dynamic>('classified_images', value);
+
+  List<String> get subGroupings => getListField<String>('sub_groupings');
+  set subGroupings(List<String>? value) =>
+      setListField<String>('sub_groupings', value);
+
+  bool get isBlocked => getField<bool>('is_blocked')!;
+  set isBlocked(bool value) => setField<bool>('is_blocked', value);
+
+  bool get isCommission => getField<bool>('is_commission')!;
+  set isCommission(bool value) => setField<bool>('is_commission', value);
 }
