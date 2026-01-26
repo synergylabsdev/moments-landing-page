@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "moments-sl"
+  },
+  "targets": {
+    "moments-sl": {
+      "hosting": {
+        "kitty-moments-landing": [
+          "kitty-moments-landing"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
