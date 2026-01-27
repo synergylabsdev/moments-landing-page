@@ -211,24 +211,38 @@ dynamic deserializeParam<T>(
             return OrdersRow(data);
           case ChatsRow:
             return ChatsRow(data);
+          case ContactMessagesRow:
+            return ContactMessagesRow(data);
           case ReportsRow:
             return ReportsRow(data);
+          case UserPushTokensRow:
+            return UserPushTokensRow(data);
           case InvitationsRow:
             return InvitationsRow(data);
           case ProductsRow:
             return ProductsRow(data);
+          case CommissionManagementRow:
+            return CommissionManagementRow(data);
           case SmsJobQueueRow:
             return SmsJobQueueRow(data);
           case InquiriesRow:
             return InquiriesRow(data);
+          case VatManagementRow:
+            return VatManagementRow(data);
           case MessagesRow:
             return MessagesRow(data);
+          case PFCMRow:
+            return PFCMRow(data);
           case UsersRow:
             return UsersRow(data);
           case CategoriesRow:
             return CategoriesRow(data);
           case ReviewsRow:
             return ReviewsRow(data);
+          case NotificationsRow:
+            return NotificationsRow(data);
+          case DocRow:
+            return DocRow(data);
           default:
             return null;
         }
