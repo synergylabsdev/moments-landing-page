@@ -113,30 +113,22 @@ class _NavbarWidgetState extends State<NavbarWidget> {
                             fit: BoxFit.cover,
                           ),
                         ),
-                        InkWell(
-                          splashColor: Colors.transparent,
-                          focusColor: Colors.transparent,
-                          hoverColor: Colors.transparent,
-                          highlightColor: Colors.transparent,
-                          onTap: () async {
-                            context.pushNamed(
-                              InvitationWidget.routeName,
-                              queryParameters: {
-                                'id': serializeParam(
-                                  5,
-                                  ParamType.int,
-                                ),
-                              }.withoutNulls,
-                            );
-                          },
-                          child: Text(
-                            FFLocalizations.of(context).getText(
-                              'pueuieat' /* Moments */,
-                            ),
-                            style: FlutterFlowTheme.of(context)
-                                .bodyMedium
-                                .override(
-                                  font: GoogleFonts.dmSans(
+                        Text(
+                          FFLocalizations.of(context).getText(
+                            'pueuieat' /* Moments */,
+                          ),
+                          style:
+                              FlutterFlowTheme.of(context).bodyMedium.override(
+                                    font: GoogleFonts.dmSans(
+                                      fontWeight: FlutterFlowTheme.of(context)
+                                          .bodyMedium
+                                          .fontWeight,
+                                      fontStyle: FlutterFlowTheme.of(context)
+                                          .bodyMedium
+                                          .fontStyle,
+                                    ),
+                                    fontSize: 14.0,
+                                    letterSpacing: 0.0,
                                     fontWeight: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .fontWeight,
@@ -144,16 +136,6 @@ class _NavbarWidgetState extends State<NavbarWidget> {
                                         .bodyMedium
                                         .fontStyle,
                                   ),
-                                  fontSize: 14.0,
-                                  letterSpacing: 0.0,
-                                  fontWeight: FlutterFlowTheme.of(context)
-                                      .bodyMedium
-                                      .fontWeight,
-                                  fontStyle: FlutterFlowTheme.of(context)
-                                      .bodyMedium
-                                      .fontStyle,
-                                ),
-                          ),
                         ),
                       ].divide(SizedBox(width: 12.0)),
                     ),
