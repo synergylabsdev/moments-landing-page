@@ -885,6 +885,14 @@ class _ContactUsPageWidgetState extends State<ContactUsPageWidget> {
                                                           'from':
                                                               'Landing page',
                                                         });
+                                                        safeSetState(() {
+                                                          _model.textController1
+                                                              ?.clear();
+                                                          _model.textController2
+                                                              ?.clear();
+                                                          _model.textController3
+                                                              ?.clear();
+                                                        });
                                                       },
                                                       text: FFLocalizations.of(
                                                               context)
